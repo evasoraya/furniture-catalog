@@ -1,0 +1,106 @@
+.card {
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid #d3d3d3a8;
+    border-radius: 5px;
+    max-height: 25% ;
+}
+.product-name{
+    font-size: 16px;
+}
+.stock-div{
+    display: flex;
+    align-items: baseline;
+    right: 0;
+
+}
+.filters{
+    background-color: #efefef;
+    margin: 1% 0 1% 1%;
+    width: 22%;
+    position: static;
+    border-radius: 1px;
+
+}
+.mail-option{
+    padding-left: 10px;
+    border-left: 1px solid #d3d3d3a8;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d321;
+}
+.modal-custom-size{
+    width: 80%;
+}
+.title{
+    color: grey;
+    font-style: italic;
+}
+.product-price{
+    font-size: 16px;
+    font-style: italic;
+}
+body{
+    background-color: #c1c1c117;
+}
+
+.products{
+    margin: 15px;
+}
+
+
+.vendor{
+    background-color: #55b4ff75;
+    border-radius: 5px;
+    padding-left: 7px;
+    width: 87%;
+}
+.vendor h6{
+   padding: 5px;
+}
+.carousel-inner>.item> img{
+    width: auto;
+    height: 450px;
+    object-fit: cover;
+}
+.custom-padding{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col-custom-padding{
+    padding-right: 0px;
+    padding-left: 3%;
+}
+.custom-margin{
+    margin: 3% 3% 0 3%;
+}
+.custom-badge{
+    background-color: #1d68a7;
+}
+#logged-user{
+    margin-top: 7%;
+}
+@media print {
+    body * {
+        visibility: hidden; // part to hide at the time of print
+    -webkit-print-color-adjust: exact !important; // not necessary use
+    if colors not visible
+    }
+
+    #printBtn {
+        visibility: hidden !important; // To hide
+    }
+
+    #page-wrapper * {
+        visibility: visible; // Print only required part
+    text-align: left;
+        -webkit-print-color-adjust: exact !important;
+    }
+}
