@@ -15,5 +15,5 @@ The user is also able to see more detailed information about each product. If th
 <li>Install Composer</li>
 
 <h2>How to run</h2>
-First run <span Composer update, 
+First run Composer update, 
 then to run the server php artisan serve
