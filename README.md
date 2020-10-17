@@ -1,4 +1,4 @@
-<h1>Dependencies</h1>
+<h2>Dependencies</h2>
 <li>Install php</li>
 <li>Install Laravel</li>
 <li>Install Composer</li>
