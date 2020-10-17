@@ -26,11 +26,10 @@ class MailController extends Controller {
             $email = $user['user']['records'][0]['fields']['email'];
             $message->to($email, $name)->subject
             ('Resonance E-Commerce - Product Details');
-            $message->setCc('osvaldo.tl.92@gmail.com' , 'Osvaldo');
+            $message->setCc('techpirates@resonance.nyc' , 'Resonance Tech Team');
             $message->attach('C:\Users\Eva\Desktop\END Tech\Resonance\resonance\public\product.pdf');
             $message->from('resonance.assigment@gmail.com','Resonance E-commerce');
         });
-        //techpirates@resonance.nyc.
         echo "Email Sent with attachment. Check your inbox.";
     }
 
