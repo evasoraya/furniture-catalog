@@ -1,3 +1,4 @@
+<h2>Furniture E-commerce</h2>
 This is a e-commerce website that lists all existing products. The user has the ability of filtering the information by:
 <ol>
     <li>Products on stock</li>
@@ -15,5 +16,5 @@ The user is also able to see more detailed information about each product. If th
 <li>Install Composer</li>
 
 <h2>How to run</h2>
-First run __Composer update__, 
-then to run the server __php artisan serve__
+First run <strong>Composer update</strong>, 
+then to run the server <strong>php artisan serve</strong>
