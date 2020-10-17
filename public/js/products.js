@@ -3,7 +3,7 @@ let allproducts={};
 
 
     appController.getLoggedUser('x=x', function (response, status) {
-        console.log(response);
+
 
         if (!response.login){
             $('#login-logout-button').html(
@@ -32,8 +32,8 @@ let allproducts={};
 
 
     appController.getMaxValue(function (response,status) {
-        console.log('alallalal ',response);
         $('.rangeInput').prop('max', response)
+        $('.range-value').html(response)
 
     });
 

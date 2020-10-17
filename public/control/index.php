@@ -77,7 +77,7 @@
                 <div class="form-group ">
                     <h5>Filter by price</h5>
                     <div class="form-control" style="display: flex">
-                        <input class="rangeInput" type="range" id="price-range"  min="0" max="" > <span class="range-value"> </span>
+                        0  <input class="rangeInput" type="range" id="price-range"  min="0" max="" > <span class="range-value"> </span>
                     </div>
                 </div>
 
